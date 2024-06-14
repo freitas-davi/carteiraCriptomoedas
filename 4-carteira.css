@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #171616;
+    color: white;
+}
+img{
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background-color: #3c3e3d;
+    padding-inline: 20px;
+    margin: 0;
+    width: 98%;
+    padding: auto;
+}
+.nav{
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+.hamburguer ::after,
+.hamburguer::before{
+    content: '';
+    display: block;
+    width: 30px;
+}
+
+
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.saldo{
+    border: 2px solid #0c9e2e;
+    border-radius: 18px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #3c3e3d;
+}
+.saldo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.botoes{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas:
+    "btn-transferir btn-endereco";
+    grid-template-columns: 50% 1fr;
+    width: 90vw;
+    height: 90px;
+    margin: 60px;
+}
+
+.btn-transferir{
+    grid-area: btn-transferir;
+    border-radius: 15px;
+    border: 2px solid #3c3e3d;
+    background-color: #0c9e2e;
+    font-size: 25px;
+    height: 70px;
+}
+
+.btn-endereco{
+    grid-area: btn-endereco;
+    border-radius: 15px;
+    border: 2px solid #3c3e3d;
+    background-color: #0c9e2e;
+    font-size: 25px;
+    height: 70px;
+}
+
+.titulo-historico{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.historico-transacoes{
+    width: 100vw;
+}
+
+table, td, th{
+    border-top: 1px solid #0c9e2e;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+

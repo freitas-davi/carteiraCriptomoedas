@@ -1,0 +1,120 @@
+p{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight:100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 15px 10px 10px 10px;
+}
+
+body{
+    background-color: #171616;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-import{
+    background-color: #171616;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0c9e2e;
+    border-radius: 18px;
+}
+
+.titulo{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.titulo h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.descricao{
+    font-size: 20px;
+    text-align:center;
+    margin-top: 25px;
+    border-top: 10px;
+}
+
+.descricao h4{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight:100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.box-input-private-key h5{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight:100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.box-private-key{
+    width:100%;
+    margin-top: 50px;
+}
+
+.input-private-key {
+    width: 80%;
+    height: 50px;
+    background-color: #3c3c3c;
+    border: 0.8px solid #0c9e2e;
+    margin: auto;
+}
+
+.btn-confirmar-private-key{
+    margin-top: 20px;
+}
+
+button{
+    height: 65px;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #0c9e2e;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #085c1c;
+}
+
+form{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
